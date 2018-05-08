@@ -37,6 +37,13 @@ PhD in Biostatistics/Bioinformatics @IMBEI: **Development of applications for in
 
 $\rightarrow$ Methods and tools to maximize information extraction, knowledge transfer, strengthen translational interactions 
     <!-- - Focus on gene regulation in platelets transcriptomics datasets -->
+    
+
+</br></br></br> 
+    
+<p align="center">
+You can find this presentation here: [`https://github.com/federicomarini/erum2018`](https://github.com/federicomarini/erum2018)
+</p>
 
 
 ## Background
@@ -197,7 +204,7 @@ $\rightarrow$ Creation of **web-based applications** where interactivity and rep
 
 
 
-## Workflow/demo quick {.build .smaller}
+## Workflow overview & quick demo {.build .smaller}
 
 <p align="center">
 <img src="figures/SCHEMA_ideal.png" alt="" width="900"/>
@@ -260,6 +267,8 @@ iSEE(sce)
 # Rorb (mostly L4 and L5a); 
 # Foxp2 (L6)
 ```
+
+Or just visit `http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k`
 
 
 ## Outlook (?) {.build}

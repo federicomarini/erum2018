@@ -197,13 +197,13 @@ $\rightarrow$ Creation of **web-based applications** where interactivity and rep
 
 
 
-## Workflow/demo quick {.build}
+## Workflow/demo quick {.build .smaller}
 
 <p align="center">
 <img src="figures/SCHEMA_ideal.png" alt="" width="900"/>
 </p>
 
-Play `scfull_pcaexplorer_ideal.mov` (also at https://www.youtube.com/watch?v=EckimPqRcCg)
+`scfull_pcaexplorer_ideal.mov`, also at https://www.youtube.com/watch?v=EckimPqRcCg
 
 
 
@@ -212,13 +212,13 @@ Play `scfull_pcaexplorer_ideal.mov` (also at https://www.youtube.com/watch?v=Eck
 Single cell RNA-seq, a.k.a. **Data exploration has probably never been so important** - hidden gems (hypotheses, findings) come out only via extensive (and proper) exploration. 
 
 - this is a time consuming task
-- often needed iterations and clever subsetting
+- often needed iterations and clever subsetting + linked information across plots
 - *how did I do this plot?*
 
 A few months, and about 1000 commits later...
 
 <p align="center">
-<img src="isee_rafiki_v2.png" alt="" height="400"/>
+<img src="isee_rafiki_v2.png" alt="" height="300"/>
 </p>
 
 logo, rafiki, quick vid/demo
@@ -262,10 +262,12 @@ iSEE(sce)
 ```
 
 
-## 
+## Outlook (?) {.build}
+
+Flexibility + Customizability $\rightarrow$ Accompanying publications as live browser!
 
 <p align="center">
-<img src="https://i.imgflip.com/29v8hl.jpg" alt=""/>
+<img src="https://i.imgflip.com/29v8hl.jpg" alt="" height="500"/>
 </p>
 
 <!-- ![](https://i.imgflip.com/29v8hl.jpg) -->
@@ -317,28 +319,6 @@ iSEE(sce)
 <code>marinif@uni-mainz.de</code> - `r icon::fa('twitter')` `@FedeBioinfo`
 </p>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

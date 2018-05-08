@@ -1,0 +1,14 @@
+.title-slide hgroup h1 {
+  color: #1a81c2;
+  font-size: 54px;
+}
+h2,h3 {
+  color: #1a81c2;
+}
+h2 {
+  margin-top: -0.9cm;
+}
+
+slides > slide:not(.nobackground):after {
+  content: '';
+}

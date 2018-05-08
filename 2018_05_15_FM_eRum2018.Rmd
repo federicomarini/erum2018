@@ -50,9 +50,9 @@ Wishlist for accessible and robust data analyses:
 - **Interactivity** (empowers the domain expert $\rightarrow$ better insights)
 - **Reproducibility** (re-performing the same analysis with the same code)
 
-Enabling transparency, independent verification, truly *standing on the shoulder of giants*
+Enabling transparency, independent verification, *standing on the shoulder of giants*
 
-
+Particularly true in the field of Bioinformatics!
 
 
 ## RNA-seq
@@ -150,7 +150,7 @@ Exploratory Data Analysis (EDA) + Differential Expression (DE) analysis $\righta
 - scenarios: alteration of thrombin signaling, crosstalk with tumor development 
 <!-- (CTH, Ruf Lab) -->
 
-`r emo::ji("thanks")` The Bioconductor project makes these task possible for many researchers!    
+`r emo::ji("pray")` The Bioconductor project makes these task possible for many researchers!    
 
 <!-- - doing a lot of exploration in RNA-seq data -->
 <!-- - lack of something to do this interactively -->
@@ -207,32 +207,25 @@ Play `scfull_pcaexplorer_ideal.mov` (also at https://www.youtube.com/watch?v=Eck
 
 
 
-## `iSEE`
+## `iSEE`ing is believing {.build}
 
-Single cell RNA-seq
-
-logo, rafiki, quick vid/demo
-
-**RNA-seq**: genes * samples tables - 
-**Aim**: identification of differentially expressed genes, gene signatures, many more
-
-**scRNA-seq**: genes * cells -
-**Aim**: Identification of cell subpopulations, description of developmental trajectories, dimension reduction
-
-Keywords: *heterogeneity*, *reveal*, *subpopulations*...
-
-Collection of tools for single cell RNA-seq: `https://www.scrna-tools.org/` (Seurat, monocle, scLVM, SCDE, scater, ...)
-
-
-**Data exploration has probably never been so important** - hidden gems (hypotheses, findings) come out only via extensive (and proper) exploration
-
-
-
-## Let's make this optimal {.build}
+Single cell RNA-seq, a.k.a. **Data exploration has probably never been so important** - hidden gems (hypotheses, findings) come out only via extensive (and proper) exploration. 
 
 - this is a time consuming task
 - often needed iterations and clever subsetting
 - *how did I do this plot?*
+
+A few months, and about 1000 commits later...
+
+<p align="center">
+<img src="isee_rafiki_v2.png" alt="" height="400"/>
+</p>
+
+logo, rafiki, quick vid/demo
+
+**scRNA-seq**: genes * cells -
+**Aim**: Identification of cell subpopulations, description of developmental trajectories, dimension reduction
+
 
 `iSEE`, interactive SummarizedExperiment/SingleCellExperiment Explorer: concept made in December 2017 @Bioc conference (joint work with Aaron Lun, Charlotte Soneson, Kevin Rue-Albrecht)
 
@@ -246,7 +239,7 @@ Collection of tools for single cell RNA-seq: `https://www.scrna-tools.org/` (Seu
 
 ## Ready for a demo?
 
-```{r eval=FALSE}
+```{r eval=FALSE, echo =TRUE}
 library("scRNAseq")
 data("allen")
 library("scater")
@@ -269,20 +262,29 @@ iSEE(sce)
 ```
 
 
+## 
 
-## Outlook
+<p align="center">
+<img src="https://i.imgflip.com/29v8hl.jpg" alt=""/>
+</p>
 
-- `r emo::ji("heart")` bug reports and `r emo::ji("heart")``r emo::ji("heart")``r emo::ji("heart")` pull requests!
+<!-- ![](https://i.imgflip.com/29v8hl.jpg) -->
+
+
+<!-- ## Outlook -->
+
 
 ## Summary {.build} 
 
 > - **Main aim**: Making analyses and exploration accessible to a wide range of scientists, especially domain experts, while still upholding the high standards in guaranteeing reproducible research steps
 
-> - Usable software: easy to use, easy to learn (Poplawski et al, BiB 2016)
+> - **real practical companions for any (RNA-seq/omics) dataset**, fully integrated in Bioconductor
 
-> - **real practical companions for any (RNA-seq) dataset**, fully integrated in Bioconductor
+<!-- > - Usable software: easy to use, easy to learn (Poplawski et al, BiB 2016) -->
 
-> - Final fellowship output focus on Thrombosis & Hemostasis, enabling analysis workflows of high-dimensional data: *platelet-o-pedia* portal as unique landing point, lower barriers to genomic data exploration
+> - `r emo::ji("heart")` bug reports and `r emo::ji("heart")``r emo::ji("heart")``r emo::ji("heart")` pull requests!
+
+> - Fellowship output focus on Thrombosis & Hemostasis, enabling analysis workflows of high-dimensional data: *platelet-o-pedia* portal as unique landing point, lower barriers to genomic data exploration
 
 > - Resource/platform applicable on wider scale of scenarios 
 
@@ -293,13 +295,13 @@ iSEE(sce)
 
 
 
-## Links, acknowledgements
+## Acknowledgements & Links
 
 - **Center for Thrombosis and Hemostasis (CTH), Mainz** (Virchow Fellowship)  
 - **IMBEI - Bioinformatics division** 
 - Charlotte Soneson, Aaron Lun, Kevin Rue-Albrecht (the `iSEE` team)
 
-**Get the packages**:
+**Try out the packages**:
 
 - **`http://bioconductor.org/packages/iSEE/`** (or try it out on our server)
 - `http://bioconductor.org/packages/pcaExplorer/`

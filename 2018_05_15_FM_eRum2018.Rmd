@@ -1,10 +1,10 @@
 ---
 title: "Interactivity meets Reproducibility: the `ideal` way of doing RNA-seq analysis"
-author: "**Federico Marini** (marinif@uni-mainz.de)</br>
+author: "**Federico Marini** (<code>marinif@uni-mainz.de</code>)</br>
   Center for Thrombosis and Hemostasis (CTH), Mainz</br>
   Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI), Mainz </br>
   BIUM(MZ) - Core Facility Bioinformatics</br>
-  </br>`r icon::fa('twitter')` `@FedeBioinfo`</br>"
+  </br>`r icon::fa('twitter')` [`@FedeBioinfo`](https://twitter.com/FedeBioinfo)</br>"
 subtitle: "</br>**eRum 2018 - Budapest**"  
 date: "May, 15th 2018"
 output:
@@ -31,7 +31,7 @@ opts_chunk$set(eval = FALSE, message = FALSE, echo = FALSE, warnings = FALSE)
 
 I'm **Federico Marini**, Virchow Fellow @CTH Mainz/IMBEI 
 
-`r icon::fa('twitter')` `@FedeBioinfo`
+`r icon::fa('twitter')` [`@FedeBioinfo`](https://twitter.com/FedeBioinfo)
 
 PhD in Biostatistics/Bioinformatics @IMBEI: **Development of applications for interactive and reproducible data analysis**
 
@@ -165,8 +165,8 @@ Exploratory Data Analysis (EDA) + Differential Expression (DE) analysis $\righta
 
 My contributions: 
 
-- `pcaExplorer` (Bioc 3.3) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach, `http://bioconductor.org/packages/pcaExplorer/` <!-- sample forensics & data-exploration-driven decisions -->
-- `ideal` (Bioc 3.5) - Interactive Differential Expression AnaLysis, `http://bioconductor.org/packages/ideal/`
+- `pcaExplorer` (Bioc 3.3) - Interactive Visualization of RNA-seq Data Using a Principal Components Approach, [`http://bioconductor.org/packages/pcaExplorer/`](http://bioconductor.org/packages/pcaExplorer) <!-- sample forensics & data-exploration-driven decisions -->
+- `ideal` (Bioc 3.5) - Interactive Differential Expression AnaLysis, [`http://bioconductor.org/packages/ideal/`](http://bioconductor.org/packages/ideal/)
 
 $\rightarrow$ Creation of **web-based applications** where interactivity and reproducibility can be combined together
 
@@ -210,8 +210,7 @@ $\rightarrow$ Creation of **web-based applications** where interactivity and rep
 <img src="figures/SCHEMA_ideal.png" alt="" width="900"/>
 </p>
 
-`scfull_pcaexplorer_ideal.mov`, also at https://www.youtube.com/watch?v=EckimPqRcCg
-
+`scfull_pcaexplorer_ideal.mov`, also at [`https://www.youtube.com/watch?v=EckimPqRcCg`](https://www.youtube.com/watch?v=EckimPqRcCg)
 
 
 ## `iSEE`ing is believing {.build}
@@ -268,7 +267,7 @@ iSEE(sce)
 # Foxp2 (L6)
 ```
 
-Or just visit `http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k`
+Or just visit [`http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k`](http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k)
 
 
 ## Outlook (?) {.build}
@@ -314,10 +313,10 @@ Flexibility + Customizability $\rightarrow$ Accompanying publications as live br
 
 **Try out the packages**:
 
-- **`http://bioconductor.org/packages/iSEE/`** (or try it out on our server)
-- `http://bioconductor.org/packages/pcaExplorer/`
-- `http://bioconductor.org/packages/ideal/`
-- Shiny Server @IMBEI: </br>`http://shiny.imbei.uni-mainz.de:3838/[pcaExplorer|ideal|iSEE]` 
+- **[`http://bioconductor.org/packages/iSEE/`](http://bioconductor.org/packages/iSEE/)** (or try it out on our server)
+- [`http://bioconductor.org/packages/pcaExplorer/`](http://bioconductor.org/packages/pcaExplorer/)
+- [`http://bioconductor.org/packages/ideal/`](http://bioconductor.org/packages/ideal/)
+- Shiny Server @IMBEI: </br>[`http://shiny.imbei.uni-mainz.de:3838/[pcaExplorer|ideal|iSEE]`](http://shiny.imbei.uni-mainz.de:3838/iSEE) 
 
 
 
@@ -325,7 +324,7 @@ Flexibility + Customizability $\rightarrow$ Accompanying publications as live br
 <p align="center">
 <font size="6">
 **Thank you for your attention!**</font></br></br>
-<code>marinif@uni-mainz.de</code> - `r icon::fa('twitter')` `@FedeBioinfo`
+<code>marinif@uni-mainz.de</code> - `r icon::fa('twitter')` [`@FedeBioinfo`](https://twitter.com/FedeBioinfo)
 </p>
 </div>
 

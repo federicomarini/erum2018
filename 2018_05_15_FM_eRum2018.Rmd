@@ -66,7 +66,7 @@ Particularly true in the field of Bioinformatics!
 
 High-dimensional snapshot of the transcriptomic activity
 
-**RNA-seq**: genes * samples tables
+**RNA-seq**: genes`r emo::ji("x")`samples tables
 
 **Aim**: identification of differentially expressed genes, gene signatures, many more 
 <!-- (Identification of cell subpopulations, description of developmental trajectories, dimension reduction) -->
@@ -273,7 +273,7 @@ iSEE(sce)
 Or just visit [`http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k`](http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k)
 
 
-## Outlook (?) {.build}
+## Outlook {.build}
 
 Flexibility + Customizability $\rightarrow$ Accompanying publications as live browser!
 
@@ -297,9 +297,9 @@ Flexibility + Customizability $\rightarrow$ Accompanying publications as live br
 
 > - `r emo::ji("heart")` bug reports and `r emo::ji("heart")``r emo::ji("heart")``r emo::ji("heart")` pull requests!
 
-> - Fellowship output focus on Thrombosis & Hemostasis, enabling analysis workflows of high-dimensional data: *platelet-o-pedia* portal as unique landing point, lower barriers to genomic data exploration
+> - Fellowship output focus on Thrombosis & Hemostasis, enabling analysis workflows of high-dimensional data: *platelet-o-pedia* portal as unique landing point, lower barriers to genomic data exploration - these apps as cornerstones
 
-> - Resource/platform applicable on wider scale of scenarios 
+<!-- > - Resource/platform applicable on wider scale of scenarios  -->
 
 <!-- (e.g. similar cell types) -->
 <!-- >- Bioinformatics (with interactivity & reproducibility) as nodal point in the translational pipeline (key message from my PhD thesis) -->

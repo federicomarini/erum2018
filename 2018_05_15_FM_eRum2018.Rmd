@@ -196,6 +196,8 @@ $\rightarrow$ Creation of **web-based applications** where interactivity and rep
 
 ## `pcaExplorer` and `ideal`
 
+### Motivation & aim
+
 > - general downweighting of the importance of data exploration (essential step!)
 > - lack of something to do this interactively (and fully integrated in Bioconductor)
 > - transparency & help for future self was also needed  $\rightarrow$ automated reporting & state saving!
@@ -227,7 +229,7 @@ Single cell RNA-seq, a.k.a. **Data exploration has probably never been so import
 
 `iSEE`, interactive SummarizedExperiment Explorer: concept made in December 2017 @Bioc conference (joint work with Aaron Lun, Charlotte Soneson, Kevin Rue-Albrecht)
 
-We wanted: interactivity, linked information across plots, reproducibility, hammer for many nails
+Wishlist: interactivity, linked information across plots, reproducibility, hammer for many nails
 
 <!-- logo, rafiki, quick vid/demo -->
 

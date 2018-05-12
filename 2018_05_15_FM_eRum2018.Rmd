@@ -25,8 +25,6 @@ library(knitr)
 opts_chunk$set(eval = FALSE, message = FALSE, echo = FALSE, warnings = FALSE)
 ```
 
-
-
 ## Hi! {.build}
 
 I'm **Federico Marini**, Virchow Fellow @CTH Mainz/IMBEI 
@@ -37,8 +35,6 @@ PhD in Biostatistics/Bioinformatics @IMBEI: </br>**Development of applications f
 $\rightarrow$ Methods and tools to maximize information extraction and knowledge transfer, strengthen translational interactions 
 </p>
 
-<!-- - Focus on gene regulation in platelets transcriptomics datasets -->
-
 </br></br></br> 
     
 <div class=blue2>
@@ -47,7 +43,6 @@ You can find this presentation here: [`https://github.com/federicomarini/erum201
 `r icon::fa('twitter')` [`@FedeBioinfo`](https://twitter.com/FedeBioinfo)
 </div>
 </p>
-
 
 ## Background
 
@@ -64,19 +59,16 @@ Enabling transparency, independent verification, *standing on the shoulder of gi
 
 Particularly true in the field of Bioinformatics!
 
-
 ## RNA-seq
 
 High-dimensional snapshot of the transcriptomic activity
 
 **RNA-seq**: genes $\times$ samples tables</br>
 **Aim**: identification of differentially expressed genes, gene signatures, many more 
-<!-- (Identification of cell subpopulations, description of developmental trajectories, dimension reduction) -->
 
 <p align="center">
 <img src="figures/animation_1x3_resized_20secstart.gif" alt="" width="600"/>
 </p>
-
 
 ```{r echo=FALSE,eval=FALSE}
 library(ggplot2)
@@ -99,10 +91,7 @@ ggplotCounts(dds_airway,intgroup = "dex",gene = "ENSG00000157214",transform = F)
 ggplotCounts(dds_airway,intgroup = "dex",gene = "ENSG00000198561",transform = F) + ylim(0,NA) # CTNND1
 ggplotCounts(dds_airway,intgroup = "dex",gene = "ENSG00000162643",transform = F) + ylim(0,NA) # WDR63
 ggplotCounts(dds_airway,intgroup = "dex",gene = "ENSG00000103196",transform = F) + ylim(0,NA) # CRISPLD2
-
-
 ```
-
 
 ```{r eval=FALSE,echo=FALSE}
 # pick 50 from the top 1k?
@@ -148,22 +137,14 @@ system(my_command)
 system(my_command2)
 ```
 
-
 ## Platelets transcriptomics {.build}
 
 Exploratory Data Analysis (EDA) + Differential Expression (DE) analysis $\rightarrow$ **analyze, visualize, integrate**
-<!-- **Differential Expression**: essential step to identify the molecular drivers of the observed phenotype -->
-
 
 - thrombocytes: anucleated, yet carrying a vast repertoire of transcripts
 - scenarios: alteration of thrombin signaling, crosstalk with tumor development 
-<!-- (CTH, Ruf Lab) -->
 
 `r emo::ji("pray")` The Bioconductor project makes these task possible for many researchers!    
-
-<!-- - doing a lot of exploration in RNA-seq data -->
-<!-- - lack of something to do this interactively -->
-<!-- - even better, fully powered by the Bioconductor ecosystem -->
 
 My contributions: 
 
@@ -174,8 +155,6 @@ My contributions:
 $\rightarrow$ Creation of **web-based applications** where interactivity and reproducibility can be combined together
 </p>
 
-
-
 ## Under the hood {.build}
 
 <p align="center">
@@ -183,19 +162,15 @@ $\rightarrow$ Creation of **web-based applications** where interactivity and rep
 </p>
 
 <!-- no slide, but talk about these points here: -->
-
 <!-- > - embedded text editor: exploiting `shinyAce` -->
 <!-- > - no white sheet syndrome: provide **template report**, editable if needed - plus, include a preview in the app -->
 <!-- > - reporting: Rmarkdown + `reactiveValues` accessed when knitting and rendering -->
 <!-- > - saving & sharing: binary objects to workspace/global environment (overhaul to Shiny support for bookmarking?)  -->
 <!-- > - interactive tours based on `introJS` library -->
-
 <!-- allow us to... -->
-
 <!-- > - have many of the common steps in analysis covered by GUIs to empower the user -->
 <!-- > - still, use the gold standard protocols on the back-end -->
 <!-- > - get for free a full report of the app after live exploration -->
-
 
 ## `pcaExplorer` and `ideal`
 
@@ -207,8 +182,6 @@ $\rightarrow$ Creation of **web-based applications** where interactivity and rep
 > - empower the domain expert (extensively used by our coop partners): not just list, but all the way down to functional interpretation
 > - usable platform for reproducible analysis, interactive tours for self-paced learning (via `rintrojs`)
 
-
-
 ## Workflow overview & quick demo {.build .smaller}
 
 <p align="center">
@@ -216,7 +189,6 @@ $\rightarrow$ Creation of **web-based applications** where interactivity and rep
 </p>
 
 `scfull_pcaexplorer_ideal.mov`, also at [`https://www.youtube.com/watch?v=EckimPqRcCg`](https://www.youtube.com/watch?v=EckimPqRcCg)
-
 
 ## `iSEE`ing is believing {.build}
 
@@ -232,9 +204,6 @@ Single cell RNA-seq, a.k.a. *Data exploration has probably never been so importa
 `iSEE`, interactive SummarizedExperiment Explorer: concept made in December 2017 @Bioc conference (joint work with Aaron Lun, Charlotte Soneson, Kevin Rue-Albrecht)
 
 **Wishlist**: interactivity, linked information across plots, reproducibility, hammer for many nails
-
-<!-- logo, rafiki, quick vid/demo -->
-
 
 <!-- iSEE provides a general interactive interface for visual exploration of high-throughput biological data sets. -->
 <!-- Any study that can be represented in a SummarizedExperiment object can be used as input, allowing iSEE to accommodate a diverse range of `-omics data sets. -->
@@ -276,7 +245,6 @@ iSEE(sce)
 
 Or just visit [`http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k`](http://shiny.imbei.uni-mainz.de:3838/iSEE_PBMC4k)
 
-
 ## Outlook {.build}
 
 Flexibility + Customizability $\rightarrow$ Accompanying publications as live browser!
@@ -284,12 +252,6 @@ Flexibility + Customizability $\rightarrow$ Accompanying publications as live br
 <p align="center">
 <img src="https://i.imgflip.com/29v8hl.jpg" alt="" height="500"/>
 </p>
-
-<!-- ![](https://i.imgflip.com/29v8hl.jpg) -->
-
-
-<!-- ## Outlook -->
-
 
 ## Summary {.build} 
 
@@ -306,11 +268,8 @@ Flexibility + Customizability $\rightarrow$ Accompanying publications as live br
 <!-- > - Resource/platform applicable on wider scale of scenarios  -->
 
 <!-- (e.g. similar cell types) -->
-<!-- >- Bioinformatics (with interactivity & reproducibility) as nodal point in the translational pipeline (key message from my PhD thesis) -->
+<!-- > - Bioinformatics (with interactivity & reproducibility) as nodal point in the translational pipeline (key message from my PhD thesis) -->
 > - Proper applications & software enable data literacy for many researchers - naturally encouraging networking possibilities + common ground to promote openness of science
-
-
-
 
 ## Acknowledgements & Links
 
@@ -324,8 +283,6 @@ Flexibility + Customizability $\rightarrow$ Accompanying publications as live br
 - [`http://bioconductor.org/packages/pcaExplorer/`](http://bioconductor.org/packages/pcaExplorer/)
 - [`http://bioconductor.org/packages/ideal/`](http://bioconductor.org/packages/ideal/)
 - Shiny Server @IMBEI: </br>[`http://shiny.imbei.uni-mainz.de:3838/[pcaExplorer|ideal|iSEE]`](http://shiny.imbei.uni-mainz.de:3838/iSEE) 
-
-
 
 <div class=red2>
 <p align="center">

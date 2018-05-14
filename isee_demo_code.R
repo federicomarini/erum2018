@@ -18,7 +18,6 @@ sce <- runTSNE(sce)
 
 
 ## Got these from... "Display panel settings"
-
 ################################################################################
 # Settings for reduced dimension plots
 ################################################################################
@@ -64,7 +63,7 @@ redDimPlotArgs[['LassoData']] <- tmp
 redDimPlotArgs[['ColorBy']] <- c("Feature name", "None", "None", "None", "None")
 redDimPlotArgs[['ColorByDefaultColor']] <- c("#000000", "black", "black", "black", "black")
 redDimPlotArgs[['ColorByColData']] <- c("NREADS", "NREADS", "NREADS", "NREADS", "NREADS")
-redDimPlotArgs[['ColorByRowTable']] <- c("---", "---", "---", "---", "---")
+redDimPlotArgs[['ColorByRowTable']] <- c("Row statistics table 1", "---", "---", "---", "---")
 redDimPlotArgs[['ColorByFeatName']] <- c(6307L, 1L, 1L, 1L, 1L)
 redDimPlotArgs[['ColorByFeatNameAssay']] <- c(6L, 6L, 6L, 6L, 6L)
 
@@ -78,8 +77,8 @@ colDataPlotArgs[['XAxis']] <- c("None", "None", "None", "None", "None")
 colDataPlotArgs[['XAxisColData']] <- c("NALIGNED", "NALIGNED", "NALIGNED", "NALIGNED", "NALIGNED")
 colDataPlotArgs[['DataBoxOpen']] <- c(FALSE, FALSE, FALSE, FALSE, FALSE)
 colDataPlotArgs[['VisualBoxOpen']] <- c(FALSE, FALSE, FALSE, FALSE, FALSE)
-colDataPlotArgs[['SelectBoxOpen']] <- c(FALSE, FALSE, FALSE, FALSE, FALSE)
-colDataPlotArgs[['SelectByPlot']] <- c("---", "---", "---", "---", "---")
+colDataPlotArgs[['SelectBoxOpen']] <- c(TRUE, FALSE, FALSE, FALSE, FALSE)
+colDataPlotArgs[['SelectByPlot']] <- c("Feature assay plot 3", "---", "---", "---", "---")
 colDataPlotArgs[['SelectEffect']] <- c("Transparent", "Transparent", "Transparent", "Transparent", "Transparent")
 colDataPlotArgs[['SelectAlpha']] <- c(0.1, 0.1, 0.1, 0.1, 0.1)
 colDataPlotArgs[['SelectColor']] <- c("#FF0000", "red", "red", "red", "red")
@@ -114,7 +113,7 @@ colDataPlotArgs[['ColorByFeatName']] <- c(1L, 1L, 1L, 1L, 1L)
 colDataPlotArgs[['ColorByFeatNameAssay']] <- c(6L, 6L, 6L, 6L, 6L)
 
 ################################################################################
-# Settings for feature expression plots
+# Settings for feature assay plots
 ################################################################################
 
 featAssayPlotArgs <- new('DataFrame', nrows=5L, rownames=paste0('featAssayPlot', seq_len(5)))
@@ -129,12 +128,18 @@ featAssayPlotArgs[['DataBoxOpen']] <- c(TRUE, TRUE, TRUE, FALSE, FALSE)
 featAssayPlotArgs[['VisualBoxOpen']] <- c(FALSE, FALSE, FALSE, FALSE, FALSE)
 featAssayPlotArgs[['SelectBoxOpen']] <- c(TRUE, TRUE, TRUE, FALSE, FALSE)
 featAssayPlotArgs[['SelectByPlot']] <- c("Reduced dimension plot 1", "Reduced dimension plot 1", "Reduced dimension plot 1", 
-                                        "---", "---")
+                                         "---", "---")
 featAssayPlotArgs[['SelectEffect']] <- c("Transparent", "Transparent", "Color", "Transparent", "Transparent")
 featAssayPlotArgs[['SelectAlpha']] <- c(0.1, 0.1, 0.1, 0.1, 0.1)
 featAssayPlotArgs[['SelectColor']] <- c("#FF0000", "#FF0000", "#CC00FF", "red", "red")
 
 tmp <- vector('list', 5)
+tmp[[3]] <- list(xmin = -0.28574301818977, xmax = 4.104681314094, ymin = 7.1341867267412, ymax = 12.60569466396, 
+                 mapping = list(x = "X", y = "Y"), domain = list(left = -0.713907040920163, right = 14.9920478593234, 
+                                                                 bottom = -0.61977934161258, top = 13.0153661738642), range = list(left = 38.1286922089041, 
+                                                                                                                                   right = 449.520547945205, bottom = 465.836151541096, top = 24.7473723724842), 
+                 log = list(x = NULL, y = NULL), direction = "xy", brushId = "featAssayPlot3_Brush", 
+                 outputId = "featAssayPlot3")
 featAssayPlotArgs[['BrushData']] <- tmp
 
 tmp <- vector('list', 5)
@@ -168,8 +173,8 @@ featAssayPlotArgs[['ColorByFeatNameAssay']] <- c(6L, 6L, 6L, 6L, 6L)
 ################################################################################
 
 rowStatTableArgs <- new('DataFrame', nrows=5L, rownames=paste0('rowStatTable', seq_len(5)))
-rowStatTableArgs[['Selected']] <- c(1L, 1L, 1L, 1L, 1L)
-rowStatTableArgs[['Search']] <- c("", "", "", "", "")
+rowStatTableArgs[['Selected']] <- c(6307L, 1L, 1L, 1L, 1L)
+rowStatTableArgs[['Search']] <- c("Foxp2", "", "", "", "")
 
 tmp <- vector('list', 5)
 tmp[[1]] <- ""
@@ -222,6 +227,44 @@ rowDataPlotArgs[['ColorByFeatName']] <- integer(0)
 rowDataPlotArgs[['ColorByFeatNameColor']] <- character(0)
 
 ################################################################################
+# Settings for custom column plots
+################################################################################
+
+customColPlotArgs <- new('DataFrame', nrows=0L, rownames=paste0('customColPlot', seq_len(0)))
+customColPlotArgs[['Function']] <- character(0)
+customColPlotArgs[['DataBoxOpen']] <- logical(0)
+customColPlotArgs[['VisualBoxOpen']] <- logical(0)
+customColPlotArgs[['SelectBoxOpen']] <- logical(0)
+customColPlotArgs[['SelectByPlot']] <- character(0)
+customColPlotArgs[['SelectEffect']] <- character(0)
+customColPlotArgs[['SelectAlpha']] <- numeric(0)
+customColPlotArgs[['SelectColor']] <- character(0)
+
+tmp <- vector('list', 0)
+customColPlotArgs[['BrushData']] <- tmp
+
+tmp <- vector('list', 0)
+customColPlotArgs[['VisualChoices']] <- tmp
+customColPlotArgs[['PointSize']] <- numeric(0)
+customColPlotArgs[['PointAlpha']] <- numeric(0)
+customColPlotArgs[['Downsample']] <- logical(0)
+customColPlotArgs[['SampleRes']] <- numeric(0)
+customColPlotArgs[['FontSize']] <- numeric(0)
+customColPlotArgs[['LegendPosition']] <- character(0)
+
+tmp <- vector('list', 0)
+customColPlotArgs[['ZoomData']] <- tmp
+
+tmp <- vector('list', 0)
+customColPlotArgs[['LassoData']] <- tmp
+customColPlotArgs[['ColorBy']] <- character(0)
+customColPlotArgs[['ColorByDefaultColor']] <- character(0)
+customColPlotArgs[['ColorByColData']] <- character(0)
+customColPlotArgs[['ColorByRowTable']] <- character(0)
+customColPlotArgs[['ColorByFeatName']] <- integer(0)
+customColPlotArgs[['ColorByFeatNameAssay']] <- integer(0)
+
+################################################################################
 # Settings for heat maps
 ################################################################################
 
@@ -269,16 +312,20 @@ heatMapPlotArgs[['SelectColor']] <- c("red", "red", "red", "red", "red")
 
 
 ################################################################################
-# Settings for heat maps
+# Initial panel settings
 ################################################################################
 
 initialPanels <- DataFrame(
-  Name=c("Reduced dimension plot 1", "Feature assay plot 1", "Row statistics table 1", 
-         "Heat map 1", "Feature assay plot 2", "Feature assay plot 3", "Column data plot 1"),
-  Width = c(4L, 4L, 4L, 4L, 4L, 4L, 4L),
-  Height = c(500L, 500L, 500L, 500L, 500L, 500L, 500L))
-         
-## Launching!
+  Name=c("Reduced dimension plot 1", "Feature assay plot 1", "Row statistics table 1", "Heat map 1", 
+         "Feature assay plot 2", "Feature assay plot 3", "Column data plot 1"),
+  Width=c(4L, 4L, 4L, 4L, 4L, 4L, 4L),
+  Height=c(500L, 500L, 500L, 500L, 500L, 500L, 500L)
+)
+
+
+
+
+### Launching!
 
 
 iSEE(sce,
@@ -307,6 +354,18 @@ colormap <- ExperimentColorMap()
 colormap <- synchronizeAssays(colormap, se)
 all_coordinates <- list()
 custom_col_fun <- NULL
+
+################################################################################
+# Defining brushes
+################################################################################
+
+all_brushes <- list()
+all_brushes[['featAssayPlot3']] <- list(xmin = -0.28574301818977, xmax = 4.104681314094, ymin = 7.1341867267412, ymax = 12.60569466396, 
+                                        mapping = list(x = "X", y = "Y"), domain = list(left = -0.713907040920163, right = 14.9920478593234, 
+                                                                                        bottom = -0.61977934161258, top = 13.0153661738642), range = list(left = 38.1286922089041, 
+                                                                                                                                                          right = 449.520547945205, bottom = 465.836151541096, top = 24.7473723724842), 
+                                        log = list(x = NULL, y = NULL), direction = "xy", brushId = "featAssayPlot3_Brush", 
+                                        outputId = "featAssayPlot3")
 
 ################################################################################
 # Defining lassos
@@ -346,38 +405,6 @@ ggplot() +
                inherit.aes=FALSE, fill = '#D8E8F1') +
   scale_fill_manual(values = c('TRUE' = '#3c8dbc', 'FALSE' = '#D8E8F1')) +
   guides(shape = 'none')
-
-################################################################################
-## Column data plot 1
-################################################################################
-
-plot.data <- data.frame(Y = colData(se)[,"NREADS"], row.names=colnames(se));
-plot.data$X <- factor(character(ncol(se)))
-plot.data <- subset(plot.data, !is.na(X) & !is.na(Y));
-
-# Saving data for transmission
-all_coordinates[['colDataPlot1']] <- plot.data
-
-# Setting up plot coordinates
-plot.data$GroupBy <- plot.data$X;
-set.seed(100);
-plot.data$jitteredX <- vipor::offsetX(plot.data$Y,
-                                      x=plot.data$X, width=0.4, varwidth=FALSE, adjust=1,
-                                      method='quasirandom', nbins=NULL) + as.integer(plot.data$X);
-
-# Creating the plot
-ggplot() +
-  geom_violin(aes(x = X, y = Y, group = GroupBy), alpha = 0.2, data=plot.data, scale = 'width', width = 0.8) +
-  geom_point(aes(y = Y, x = jitteredX), alpha = 1, plot.data, color='#000000', size=1) +
-  labs(x = "", y = "NREADS", title = "NREADS ") +
-  coord_cartesian(ylim = range(plot.data$Y, na.rm=TRUE), expand = TRUE) +
-  scale_x_discrete(drop = FALSE) +
-  theme_bw() +
-  theme(legend.position = 'bottom', legend.text=element_text(size=9), 
-        legend.title=element_text(size=11), legend.box = 'vertical',
-        axis.text.x = element_text(angle=90, size=10, hjust=1, vjust=0.5), 
-        axis.text.y=element_text(size=10), 
-        axis.title=element_text(size=12), title=element_text(size=12))
 
 ################################################################################
 ## Feature assay plot 1
@@ -477,7 +504,46 @@ ggplot() +
                   ylim = range(plot.data$Y, na.rm = TRUE), expand = TRUE) +
   theme_bw() +
   theme(legend.position = 'bottom', legend.text=element_text(size=9), legend.title=element_text(size=11),
-        axis.text=element_text(size=10), axis.title=element_text(size=12), title=element_text(size=12))
+        axis.text=element_text(size=10), axis.title=element_text(size=12), title=element_text(size=12)) +
+  geom_rect(aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), color='#00a65a', alpha=0, 
+            data=do.call(data.frame, all_brushes[['featAssayPlot3']][c('xmin', 'xmax', 'ymin', 'ymax')]), inherit.aes=FALSE)
+
+################################################################################
+## Column data plot 1
+################################################################################
+
+plot.data <- data.frame(Y = colData(se)[,"NREADS"], row.names=colnames(se));
+plot.data$X <- factor(character(ncol(se)))
+plot.data <- subset(plot.data, !is.na(X) & !is.na(Y));
+
+# Receiving point selection
+selected_pts <- shiny::brushedPoints(all_coordinates[['featAssayPlot3']], all_brushes[['featAssayPlot3']])
+plot.data$SelectBy <- rownames(plot.data) %in% rownames(selected_pts);
+
+# Saving data for transmission
+all_coordinates[['colDataPlot1']] <- plot.data
+
+# Setting up plot coordinates
+plot.data$GroupBy <- plot.data$X;
+set.seed(100);
+plot.data$jitteredX <- vipor::offsetX(plot.data$Y,
+                                      x=plot.data$X, width=0.4, varwidth=FALSE, adjust=1,
+                                      method='quasirandom', nbins=NULL) + as.integer(plot.data$X);
+
+# Creating the plot
+ggplot() +
+  geom_violin(aes(x = X, y = Y, group = GroupBy), alpha = 0.2, data=plot.data, scale = 'width', width = 0.8) +
+  geom_point(aes(y = Y, x = jitteredX), subset(plot.data, !SelectBy), alpha = 0.10, color='#000000', size=1) +
+  geom_point(aes(y = Y, x = jitteredX), subset(plot.data, SelectBy), color='#000000', size=1) +
+  labs(x = "", y = "NREADS", title = "NREADS ") +
+  coord_cartesian(ylim = range(plot.data$Y, na.rm=TRUE), expand = TRUE) +
+  scale_x_discrete(drop = FALSE) +
+  theme_bw() +
+  theme(legend.position = 'bottom', legend.text=element_text(size=9), 
+        legend.title=element_text(size=11), legend.box = 'vertical',
+        axis.text.x = element_text(angle=90, size=10, hjust=1, vjust=0.5), 
+        axis.text.y=element_text(size=10), 
+        axis.title=element_text(size=12), title=element_text(size=12))
 
 ################################################################################
 ## Heat map 1
@@ -527,3 +593,7 @@ cowplot::plot_grid(
 ## To guarantee the reproducibility of your code, you should also
 ## record the output of sessionInfo()
 sessionInfo()
+
+
+
+

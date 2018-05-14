@@ -1,5 +1,5 @@
-# source("https://bioconductor.org/biocLite.R")
-# biocLite("iSEE")
+source("https://bioconductor.org/biocLite.R")
+biocLite("iSEE")
 library("iSEE")
 library("scRNAseq")
 data("allen")
@@ -9,6 +9,7 @@ counts(sce) <- assay(sce, "tophat_counts")
 sce <- normalize(sce)
 sce <- runPCA(sce)
 sce <- runTSNE(sce)
+# you could just run it here with default settings and no pre-selection...
 # iSEE(sce)
 # couple of genes to check: (Zeisel, Science 2015; Tasic, Nature Neuroscience 2016)
 # Tbr1 (TF required for the final differentiation of cortical projection neurons);
@@ -16,6 +17,7 @@ sce <- runTSNE(sce)
 # Rorb (mostly L4 and L5a); 
 # Foxp2 (L6)
 
+# Or... -> exploiting the feature of iSEE themselves ;)
 
 ## Got these from... "Display panel settings"
 ################################################################################
@@ -593,7 +595,5 @@ cowplot::plot_grid(
 ## To guarantee the reproducibility of your code, you should also
 ## record the output of sessionInfo()
 sessionInfo()
-
-
 
 

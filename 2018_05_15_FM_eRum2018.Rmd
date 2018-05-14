@@ -152,7 +152,7 @@ My contributions:
 - `ideal` (Bioc 3.5) - Interactive Differential Expression AnaLysis, [`http://bioconductor.org/packages/ideal/`](http://bioconductor.org/packages/ideal/)
 
 <p align="center">
-$\rightarrow$ Creation of **web-based applications** where interactivity and reproducibility can be combined together
+$\rightarrow$ **Web-based applications** enabling interactivity and reproducibility
 </p>
 
 ## Under the hood {.build}

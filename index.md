@@ -36,7 +36,7 @@ $\rightarrow$ Methods and tools to maximize information extraction and knowledge
     
 <div class=blue2>
 <p align="center">
-You can find this presentation here: [`https://github.com/federicomarini/erum2018`](https://github.com/federicomarini/erum2018)</br> 
+You can find this presentation here: [`https://federicomarini.github.io/erum2018/`](https://federicomarini.github.io/erum2018/)</br> 
 <!--html_preserve--><i class="fab  fa-twitter "></i><!--/html_preserve--> [`@FedeBioinfo`](https://twitter.com/FedeBioinfo)
 </div>
 </p>

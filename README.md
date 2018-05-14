@@ -27,4 +27,6 @@
     reproducible analyses, thanks to an embedded text editor and a template report, 
     to seamlessly generate HTML documents as a result of the user's exploration.
     
-This repository contains the source (Rmd and md) and html version of the presentation, together with the css file to customize the appearance (making it somewhat Bioconductor-ish)
+This repository contains the source (Rmd and md) and html version of the presentation, together with the css file to customize the appearance (making it somewhat Bioconductor-ish).
+
+You can display this presentation here [`https://federicomarini.github.io/erum2018/`](https://federicomarini.github.io/erum2018/)

@@ -1,11 +1,11 @@
 Presenting	Twitter	What	Slides (link)	Sesson type	Misc (e.g. video)
 Achim Zeileis 	@AchimZeileis	R/exams: A One-for-All Exams Generator 		keynote	
-Martin Mächler 	@MMaechler	"What I find important when R Programming; some late features "	http://stat.ethz.ch/~maechler/U/R/eRum_2018_ProgR-ALTREP.html	keynote	
+Martin M√§chler 	@MMaechler	What I find important when R Programming; some late features 	http://stat.ethz.ch/~maechler/U/R/eRum_2018_ProgR-ALTREP.html	keynote	
 Nathalie Villa-Vialaneix 	@Natty_V2	Learning from (dis)similarity data 		keynote	
 Roger Bivand 	@RogerBivand	A practical history of R (where things came from) 		keynote	
 Stefano M. Iacus 	@iacus	Sentiment Analysis on Social Media and Big Data 		keynote	
 Arthur Charpentier 	@freakonometrics	Demographics with Genealogical Data 		invited	
-Bárbara Borges 		Drilldown data discovery with Shiny 		invited	
+Barbara Borges 		Drilldown data discovery with Shiny 		invited	
 Colin Gillespie 	@csgillespie	Getting the most out of GitHub and friends 		invited	
 Erin LeDell 	@ledell	Scalable Automatic Machine Learning in R 	https://github.com/h2oai/h2o-meetups/tree/master/2018_05_15_eRum_AutoML_in_R	invited	
 Henrik Bengtsson 	@henrikbengtsson	A Future for R: Parallel and Distributed Processing in R for Everyone 		invited	
@@ -16,25 +16,25 @@ Olga Mierzwa-Sulima 	@olga_mie	Taking inspirations from proven frontend framewor
 Przemyslaw Biecek 	@smarterpoland	Show me your model 2.0 		invited	
 Szilard Pafka 	@DataScienceLA	Better than Deep Learning - Gradient Boosting Machines (GBM) in R 	https://speakerdeck.com/szilard/better-than-deep-learning-gradient-boosting-machines-gbm-in-r-erum-conference-budapest-may-2018	invited	
 Aimee Gott 	@aimeegott_R	Using R to Build a Data Science Team 		contributed	
-Andrea Melloncelli 	@akirocode	What software engineers can teach to data scientists: code safety and … with automatic tests 		contributed	
-Andreas Scharmüller	@andschar	Time series modeling of plant protection products in aquatic systems in R 		contributed	
+Andrea Melloncelli 	@akirocode	What software engineers can teach to data scientists: code safety and √â with automatic tests 		contributed	
+Andreas Scharm√ºller	@andschar	Time series modeling of plant protection products in aquatic systems in R 		contributed	
 Andrew Collier 	@DataWookie	Taking the Bayesian Leap 	https://datawookie.github.io/talk-first-steps-with-stan/	contributed	
 Andrie de Vries 	@revoandrie	Tools for using TensorFlow with R 		contributed	
-Claus Thorn Ekstrøm 	@ClausEkstrom	Predicting the winner of the 2018 FIFA World Cup predictions 	http://biostatistics.dk/talks/eRum2018	contributed	
+Claus Thorn Ekstr√∏m 	@ClausEkstrom	Predicting the winner of the 2018 FIFA World Cup predictions 	http://biostatistics.dk/talks/eRum2018	contributed	
 David Ardia		Markov-Switching GARCH Models in R: The MSGARCH Package 		contributed	
 David Smith 	@revodavid	Speeding up R with Parallel Programming in the Cloud 		contributed	
-Dénes Tóth		radii.defer: Deferred execution of nested functions 		contributed	
+Denes Toth		radii.defer: Deferred execution of nested functions 		contributed	
 Edwin Thoen 	@edwin_thoen	A recipe for recipes 		contributed	
 Edwin de Jonge 	@edwindjonge	validatetools: resolve and simplify contradictive or redundant data validation rules. 		contributed	
 Federico Marini	@FedeBioinfo	Interactivity meets Reproducibility: the ideal way of doing RNA-seq analysis 	https://federicomarini.github.io/erum2018/	contributed	
 Francois Mercier 	@mgrafit	Nonlinear mixed-effects models in R 		contributed	
-Goran Milovanovi_ 	@GSMilovanovic	Wikidata Concepts Monitor: R in action across Big Wikidata 		contributed	
+Goran Milovanovic 	@GSMilovanovic	Wikidata Concepts Monitor: R in action across Big Wikidata 		contributed	
 Heather Turner	@HeathrTurnr	Modelling Item Worth Based on Rankings 	https://gitpitch.com/hturner/talks/eRum2018#/	contributed	
 Ildiko Czeller 	@czeildi	The essentials to work with object-oriented systems in R 	https://github.com/czeildi/erum2018-oop-essentials	contributed	
-Leopoldo Catania 		Predicting Cryptocurrencies Time–Series with the eDMA package 		contributed	
+Leopoldo Catania 		Predicting Cryptocurrencies Time√êSeries with the eDMA package 		contributed	
 Lionel Henry 	@_lionelhenry	Harness the R condition system 	https://www.dropbox.com/s/fi5fswytwatw1kk/condition-erum.pdf	contributed	
-Marcin Kosi_ski	@kosinski_rblog	Multi-state churn analysis with a subscription product 	https://github.com/g6t/mchurn	contributed	
-Miko_aj Olszewski		Not all that Shiny by default 		contributed	
+Marcin Kosinski	@kosinski_rblog	Multi-state churn analysis with a subscription product 	https://github.com/g6t/mchurn	contributed	
+Mikolaj Olszewski		Not all that Shiny by default 		contributed	
 Mira Kattwinkel		openSTARS: prepare GIS data for regression analysis on stream networks 		contributed	
 Noa Tamir 	@noatamir	Data Culture in Practice 		contributed	
 Omayma Said 		Fitting Humans Stories in List Columns: Cases From an Online Recruitment Platform 		contributed	
@@ -46,69 +46,69 @@ Tom Reynkens		Estimating the maximum possible earthquake magnitude using extreme
 Tomislav Hengl	@tom_hengl	Machine Learning (ranger package) as a framework for spatial and spatiotemporal prediction 		contributed	
 Wit Jakuczun 	@WitJakuczun	Know your R usage workflow to handle reproducibility challenges 		contributed	
 Zuzana Hubnerova		Asymptotic Powers of Selected ANOVA Tests in Generalized Linear Models 		contributed	
-Alicja Fra_ 		Nested apply as an alternative to double for loops 		lightning	
+Alicja Fras 		Nested apply as an alternative to double for loops 		lightning	
 Andrea Schnell 	@schnllr	Establishing analytical pipelines tools and culture 		lightning	
-Bence Arató 	@BenceArato	The Big Connection - using R with big data 	https://www.dropbox.com/s/1qgr0z4jcy61vvr/arato_bence_the_big_connection.pdf?dl=0	lightning	
+Bence Arato 	@BenceArato	The Big Connection - using R with big data 	https://www.dropbox.com/s/1qgr0z4jcy61vvr/arato_bence_the_big_connection.pdf?dl=0	lightning	
 Chris von Csefalvay 	@chrisvcsefalvay	Soylent Green is populations! Using synthetic populations in research and analytics 		lightning	
 Ekaterina Fedotova 		Pragmatic approach for efficient processing of spatial data: application to climatology 		lightning	
 Emil Lykke Jensen 	@emillykkejensen	Make R elastic 		lightning	
-Florian Privé 	@privefl	An R package for statistical tools with big matrices stored on disk 		lightning	
+Florian Prive 	@privefl	An R package for statistical tools with big matrices stored on disk 		lightning	
 Hannah Frick 	@hfcfrick	Navigating the Wealth of R Packages 	https://github.com/hfrick/erum2018	lightning	
 Jakub Houdek 		How to tell if a hockey player performs well (enough) 		lightning	
-Johannes Gussenbauer		The R-Package ‘surveysd’ 		lightning	
-Krzysztof J_drzejewski 		IRT and beyond - what to do when you want to modify a model, but the package you use do not let you? 		lightning	
-Lubomír _t_pánek	@LubomirStepanek	Classification and attractiveness evaluation of facial emotions for purposes of plastic surgery using machine-learning methods and R 		lightning	
+Johannes Gussenbauer		The R-Package √îsurveysd√ï 		lightning	
+Krzysztof Jedrzejewski 		IRT and beyond - what to do when you want to modify a model, but the package you use do not let you? 		lightning	
+Lubomir Stepanek	@LubomirStepanek	Classification and attractiveness evaluation of facial emotions for purposes of plastic surgery using machine-learning methods and R 		lightning	
 Luke Johnston 	@lwjohnst	An R toolkit to simplify and automate an open scientific workflow 		lightning	
 Matthias Kaeding 		RcppGreedySetCover: Scalable Set Cover 		lightning	
 Mikkel Freltoft Krogsholm 	@mikkelkrogsholm	Write Rmazing Code! 	https://www.linkedin.com/feed/update/urn:li:activity:6402414811262521344/	lightning	
 Mikolaj Olszewski 		What teaching R taught me about R 		lightning	
-Mira Céline Klein 		Writing R packages for clients: Guidelines at INWT Statistics 		lightning	
+Mira Celine Klein 		Writing R packages for clients: Guidelines at INWT Statistics 		lightning	
 Peter Laurinec 	@petolauri	Time Series Representations for Better Data Mining 	https://www.slideshare.net/PeterLaurinec/time-series-representations-for-better-data-mining	lightning	
 Samuel Borms		An integrated framework in R for textual sentiment time series aggregation and prediction 		lightning	
 Tamas Szilagyi 	@tudosgar	Robust Data Pipelines with Drake and Docker 	https://speakerdeck.com/mtoto/robust-datapipelines-with-drake-and-docker	lightning	
-Tamás Nagy 	@nagyt	Manage your meta-analysis workflow like a boss: Introducing the {metamanager} package 		lightning	
+Tamas Nagy 	@nagyt	Manage your meta-analysis workflow like a boss: Introducing the {metamanager} package 		lightning	
 Tatjana Kecojevic 	@Tatjana_Kec	Setting up your R workshop in the cloud 		lightning	
 Timothy Wong		Generalised Additive Model for Gas Boiler Breakdown Demand Prediction 		lightning	
 Titus Laska		Quality Assurance in Healthcare with R 		lightning	
 Agnieszka Borsuk-De Moor 		Informed clinical decisions based on population pharmacometric models with the aid of Shiny 		shinydemo	
-András Tajti 	@atajti	Shiny Dashboard on streaming data 		shinydemo	
+Andras Tajti 	@atajti	Shiny Dashboard on streaming data 		shinydemo	
 Bartosz Czernecki	@iqdata2	What is the best place to be? Location optimization with R and Google Maps 		shinydemo	
 Peter Szabolcs 		Visualizing vehicle usage with the leaflet package 		shinydemo	
-Dávid Gyurkó 		Going async with Shiny 		shinydemo	
+David Gyurk‚Äî 		Going async with Shiny 		shinydemo	
 Francesca Vitalini 	@Pisita11	SmaRP: Smart Retirement Planning A Shiny App to evaluate retirement benefits and optimization thereof, in the context of the Swiss system. 		shinydemo	
 Kamil Wais 		Towards Native Declarative Data Collection with Question and Survey Instant Feedback in R&Shiny 		shinydemo	
-Max Grütter 	@MaxGruetter	The Zurich RealEstateApp - An R-Shiny application for the Zurich real estate market 		shinydemo	
+Max Gr≈∏tter 	@MaxGruetter	The Zurich RealEstateApp - An R-Shiny application for the Zurich real estate market 		shinydemo	
 Anne Bras		Crazy Sequential Representations of Natural Numbers 		poster	
 Bartosz Czernecki	@iqdata2	Finding relevant atmospheric predictors of surface precipitation type 		poster	
 Daniel Tiezzi	@Dgtiezzi	Distinct operative mutational processes across breast cancer subtypes. 		poster	
 Emanuele Cordano		R use in Hydrology: an example with R and the hydrological model GEOtop 		poster	
 Krzysztof Marcinkowski		Modelling of job offers 		poster	
 Leodolter Maximilian		Incremental Dynamic Time Warping in R 		poster	
-Leszek Kolendowicz		Application of 'R' to assess the impact of biometeorological conditions for the landscape perception and objectification of its evaluation – experiment with eyetracking glasses 		poster	
-Lubomír _t_pánek	@LubomirStepanek	Facial attractiveness evaluation for purposes of plastic surgery using web-based shiny application 	https://github.com/LStepanek/_eRum_2018_	poster	
+Leszek Kolendowicz		Application of 'R' to assess the impact of biometeorological conditions for the landscape perception and objectification of its evaluation √ê experiment with eyetracking glasses 		poster	
+Lubomir Stepanek	@LubomirStepanek	Facial attractiveness evaluation for purposes of plastic surgery using web-based shiny application 	https://github.com/LStepanek/_eRum_2018_	poster	
 Mariann Borsos 		Effect of patient compliance on long-term survival 		poster	
 Marta Sestelo	@MartaSestelo	survidm: Inference and Prediction in an Illness-Death multi-state Model 	https://github.com/sestelo/erum2018	poster	
 Matteo Lattuada 		Differential impact of anthropogenic pressures on Caspian Sea ecoregions 		poster	
 Mauricio Moreno-Zambrano		Mathematical modelling of cocoa bean fermentation using a Bayesian framework 		poster	
 Michael Kala		The comparison of robust and non-robust geostatistical model of meteorological data from Estonia 		poster	
 Michael Themessl-Huber		Reproducibility of data analysis and reporting with R, R Markdown, knitr and LaTeX using the example of the standardized Austrian school leaving exam 		poster	
-Milan _ist_		Hydrological and data-driven simulation of river flows in R 		poster	
-Mónica Balzarini		A user-friendly interface for spatial data analysis with R 		poster	
+Milan Cisty		Hydrological and data-driven simulation of river flows in R 		poster	
+Monica Balzarini		A user-friendly interface for spatial data analysis with R 		poster	
 Nora M. Villanueva	@noramvillanueva	Finding groups in time-to-event data by means of the clustcurv package 	https://github.com/sestelo/erum2018	poster	
 Piotr Opiela		Hierarchical Cluster Analysis 		poster	
 Sami Diaf 		Generating Time Series' Latent Factors with Variational Autoencoders 		poster	
 Tereza Konecna 		EstWeibull: an R package for estimation of parameters for two-parameters Weibull distribution 		poster	
-Zsuzsanna Szabó		Predicting performance of concrete structures by machine learning 		poster	
+Zsuzsanna Szabo		Predicting performance of concrete structures by machine learning 		poster	
 Colin Fay 	@_ColinFay	Building a package that lasts 	https://github.com/ColinFay/erum2018	tutorial	
 Ildiko Czeller	@czeildi	Clean R code - how to write it and what will the benefits be 		tutorial	
 Colin Gillespie 	@csgillespie	Efficient R programming 		tutorial	
 Isabella Gollini	@R_Forwards	Forwards Package Development Workshop for Women 		tutorial	
-János Divényi	@divenyijanos	The beauty of data manipulation with data.table 		tutorial	
+Janos Divenyi	@divenyijanos	The beauty of data manipulation with data.table 		tutorial	
 Jo-fai Chow 	@matlabulous	Automatic and Interpretable Machine Learning in R with H2O and LIME 		tutorial	
 Grace Meyer		Building an Interpretable NLP model to classify tweets 	https://github.com/KKulma/2018_eRum_TextClassification_workshop	tutorial	
 Przemyslaw Biecek	@smarterpoland	DALEX: Descriptive mAchine Learning EXplanations . Tools for exploration, validation and explanation of complex machine learning models 		tutorial	
 Aimee Gott	@aimeegott_R	Deep Learning with Keras for R 		tutorial	
 Jannes Muenchow		Geocomputation with R 		tutorial	
 Martijn Tennekes 		Plotting spatial data in R 		tutorial	
-Claus Ekstrøm	@ClausEkstrom	Building a pipeline for reproducible data screening and quality control 	http://www.biostatistics.dk/eRum2018/index.html	tutorial	
+Claus Ekstr√∏m	@ClausEkstrom	Building a pipeline for reproducible data screening and quality control 	http://www.biostatistics.dk/eRum2018/index.html	tutorial	
 Benjamin Ortiz Ulloa 	@plzbeemyfriend	Graphs: A datastructure to query 		tutorial	

@@ -106,7 +106,7 @@ Isabella Gollini	@R_Forwards	Forwards Package Development Workshop for Women 		t
 Janos Divenyi	@divenyijanos	The beauty of data manipulation with data.table 		tutorial	
 Jo-fai Chow 	@matlabulous	Automatic and Interpretable Machine Learning in R with H2O and LIME 		tutorial	
 Grace Meyer		Building an Interpretable NLP model to classify tweets 	https://github.com/KKulma/2018_eRum_TextClassification_workshop	tutorial	
-Przemyslaw Biecek	@smarterpoland	DALEX: Descriptive mAchine Learning EXplanations . Tools for exploration, validation and explanation of complex machine learning models 		tutorial	
+Przemyslaw Biecek	@smarterpoland	DALEX: Descriptive mAchine Learning EXplanations . Tools for exploration, validation and explanation of complex machine learning models 	https://github.com/pbiecek/DALEX_docs/tree/master/workshops/eRum2018	tutorial	
 Aimee Gott	@aimeegott_R	Deep Learning with Keras for R 	https://github.com/MangoTheCat/keras-workshop	tutorial	
 Jannes Muenchow		Geocomputation with R 		tutorial	
 Martijn Tennekes 		Plotting spatial data in R 		tutorial	

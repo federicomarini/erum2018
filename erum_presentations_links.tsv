@@ -15,7 +15,7 @@ Matthias Templ 		Compositional analysis of our favourite drinks 		invited
 Olga Mierzwa-Sulima 	@olga_mie	Taking inspirations from proven frontend frameworks to add to Shiny with 4 new packages 	https://github.com/Appsilon/erum2018	invited	
 Przemyslaw Biecek 	@smarterpoland	Show me your model 2.0 		invited	
 Szilard Pafka 	@DataScienceLA	Better than Deep Learning - Gradient Boosting Machines (GBM) in R 	https://speakerdeck.com/szilard/better-than-deep-learning-gradient-boosting-machines-gbm-in-r-erum-conference-budapest-may-2018	invited	
-Aimee Gott 	@aimeegott_R	Using R to Build a Data Science Team 		contributed	
+Aimee Gott 	@aimeegott_R	Using R to Build a Data Science Team 	contributed	
 Andrea Melloncelli 	@akirocode	What software engineers can teach to data scientists: code safety and É with automatic tests 		contributed	
 Andreas Scharmüller	@andschar	Time series modeling of plant protection products in aquatic systems in R 		contributed	
 Andrew Collier 	@DataWookie	Taking the Bayesian Leap 	https://datawookie.github.io/talk-first-steps-with-stan/	contributed	
@@ -107,7 +107,7 @@ Janos Divenyi	@divenyijanos	The beauty of data manipulation with data.table 		tu
 Jo-fai Chow 	@matlabulous	Automatic and Interpretable Machine Learning in R with H2O and LIME 		tutorial	
 Grace Meyer		Building an Interpretable NLP model to classify tweets 	https://github.com/KKulma/2018_eRum_TextClassification_workshop	tutorial	
 Przemyslaw Biecek	@smarterpoland	DALEX: Descriptive mAchine Learning EXplanations . Tools for exploration, validation and explanation of complex machine learning models 		tutorial	
-Aimee Gott	@aimeegott_R	Deep Learning with Keras for R 		tutorial	
+Aimee Gott	@aimeegott_R	Deep Learning with Keras for R 	https://github.com/MangoTheCat/keras-workshop	tutorial	
 Jannes Muenchow		Geocomputation with R 		tutorial	
 Martijn Tennekes 		Plotting spatial data in R 		tutorial	
 Claus Ekstrøm	@ClausEkstrom	Building a pipeline for reproducible data screening and quality control 	http://www.biostatistics.dk/eRum2018/index.html	tutorial	

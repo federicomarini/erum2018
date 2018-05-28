@@ -5,7 +5,7 @@ Nathalie Villa-Vialaneix 	@Natty_V2	Learning from (dis)similarity data 		keynote
 Roger Bivand 	@RogerBivand	A practical history of R (where things came from) 		keynote	
 Stefano M. Iacus 	@iacus	Sentiment Analysis on Social Media and Big Data 		keynote	
 Arthur Charpentier 	@freakonometrics	Demographics with Genealogical Data 		invited	
-Barbara Borges 		Drilldown data discovery with Shiny 		invited	
+Barbara Borges 		Drilldown data discovery with Shiny 	https://github.com/bborgesr/erum2018/	invited	
 Colin Gillespie 	@csgillespie	Getting the most out of GitHub and friends 		invited	
 Erin LeDell 	@ledell	Scalable Automatic Machine Learning in R 	https://github.com/h2oai/h2o-meetups/tree/master/2018_05_15_eRum_AutoML_in_R	invited	
 Henrik Bengtsson 	@henrikbengtsson	A Future for R: Parallel and Distributed Processing in R for Everyone 		invited	
